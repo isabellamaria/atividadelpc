@@ -1,0 +1,59 @@
+1. Faça um Programa que mostre a mensagem "Olá mundo" na tela.
+#mens = input('Digite Olá mundo: ')
+#    print(f'{mens} a mensagem é igual à Olá mundo.')
+2. Faça um Programa que peça um número e então mostre a mensagem O número informado foi [número].
+#num = input('Digite um número: ')
+#    print(f'O número informado foi {num}')
+3. Faça um Programa que peça dois números e imprima a soma.
+#x = input('Digite um número: ')
+#z = input('Digite um número: ')
+#soma = x + z
+#    print(f'{soma} x mais z é igual à soma.')
+4. Faça um Programa que peça as 4 notas bimestrais e mostre a média.
+
+#x = input('Digite a primeira nota: ')
+#z = input('Digite a segunda nota: ')
+#w = input('Digite a terceira nota: ')
+#y = input('Digite a quarta nota: ')
+#soma = x + z + w + y 
+#med = soma/4
+#    print(f'{med} a média é igual a {soma} de todas as notas dividido por quatro.')
+5. Faça um Programa que converta metros para centímetros.
+#metro = float(input('Digite uma medida em metros: '))
+#cent = metro * 100
+#    print(f'{metro} metros convertido para centímetros é igual a {cent} centímetros.')
+6. Faça um Programa que peça o raio de um círculo, calcule e mostre sua área.
+#r = float(input('Digite a medida do raio: '))
+#π = 3,14
+#num =  π * r ** 2
+#    print(f'{área} a área de um raio é igual à π vezes {raio} ao quadrado.')
+7. Faça um Programa que calcule a área de um quadrado, em seguida mostre o dobro desta área para o usuário.
+#lado = float(input('Digite a medida de um lado do quadrado: '))
+#área = lado ** 2
+#    print(f'{lado} um lado ao quadrado é igual à {área}.')
+8. Faça um Programa que pergunte quanto você ganha por hora e o número de horas trabalhadas no mês. Calcule e mostre o total do seu salário no referido mês.
+#valor_recebido_por_hora = float(input('Digite o quanto você recebe por hora: '))
+#horas_trabalhadas = int(input('Quantas horas você trabalha diariamente? '))
+#salario = (valor_recebido_por_hora * horas_trabalhadas) * 10
+#    print(f'O seu salário é igual a R${salario}')
+9. . Faça um Programa que peça um valor e mostre na tela se o valor é positivo ou negativo.
+#valor = input('Digite um número: ')
+#if valor < 0  
+#    print(f'{valor} é negativo.')
+#else:
+#    print(f'{valor} é positivo.')
+10. Faça um Programa que verifique se uma letra digitada é "F" ou "M". Conforme a letra escrever: F - Feminino, M - Masculino, Sexo Inválido.
+#nome = input('Digite seu nome: ')
+#sexo = input('Digite seu sexo : ')
+#if sexo == 'm':
+#    print(f'{nome} é do sexo Masculino')
+#elif sexo == 'f':
+#    print(f'{nome} é do sexo Feminino')
+#else:
+#    print('Sexo Inválido.')
+11. Faça um Programa que verifique se uma letra digitada é vogal ou consoante.
+#letra = input('Digite uma letra: ')
+#if letra in 'aeiou':
+#    print(f'{letra} é uma vogal.')
+#else:
+#    print(f'{letra} é uma consoante.')
